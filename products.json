@@ -1,0 +1,41 @@
+[
+  {
+    "model": "myapp.product",
+    "pk": 1,
+    "fields": {
+      "name": "iPhone 16",
+      "price": 79999,
+      "description": "Apple iPhone with advanced camera system.",
+      "image": "images/iphone.png",
+      "slug": "iphone-16",
+      "stock": 10,
+      "active": true
+    }
+  },
+  {
+    "model": "myapp.product",
+    "pk": 2,
+    "fields": {
+      "name": "Samsung Galaxy S25",
+      "price": 74999,
+      "description": "Samsung flagship smartphone.",
+      "image": "images/samsung_galaxy.jpeg",
+      "slug": "samsung-galaxy-s25",
+      "stock": 15,
+      "active": true
+    }
+  },
+  {
+    "model": "myapp.product",
+    "pk": 3,
+    "fields": {
+      "name": "Wireless Headphones",
+      "price": 2999,
+      "description": "Wireless headphones with noise cancellation.",
+      "image": "images/wireless_headphones.png",
+      "slug": "wireless-headphones",
+      "stock": 25,
+      "active": true
+    }
+  }
+]
