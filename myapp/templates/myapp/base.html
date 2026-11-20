@@ -97,7 +97,13 @@
             id="cart-qty"
             class="absolute -top-2 -right-2 text-xs bg-red-500 text-white rounded-full px-1"
           >
-            Cart
+          {% with qty_amount=cart|length %}
+            {% if qty_amount > 0 %}
+              {{qty_amount}}
+            {% else %}
+              0
+            {% endif %}
+          {% endwith %}
           </span>
         </a>
 
