@@ -56,7 +56,9 @@
       type: "POST",
       url: "{% url 'cart_add' %}",
       data: {
-        csrfmiddlewaretoken: "{{csrf_token}}"
+        csrfmiddlewaretoken: "{{csrf_token}}",
+        product_id : $("#atc").val(),
+        product_quantity: $("#select option:selected").text()
       }
     })
   })
